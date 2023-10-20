@@ -21,14 +21,14 @@ public class Mastermind {
 		
 		for (int i = 0; i < tablero.length; i++) {
 			for (int j = 0; j < tablero[0].length; j++) {
-				tablero[i][j]=-1;
+				tablero[i][j]=0;
 			}
 		}
 		for (int i = 0; i < fijas.length; i++) {
-			fijas[i]=-1;
+			fijas[i]=0;
 		}
 		for (int i = 0; i < picas.length; i++) {
-			picas[i]=-1;
+			picas[i]=0;
 		}
 		
 		

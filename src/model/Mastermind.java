@@ -72,7 +72,7 @@ public class Mastermind {
 		return tablero; 
 	}
 	
-	// Corre el juego
+	// Corre el juego.
 	public void juego() {
 		IoManager iotemp = new IoManager();
 		this.llenarNumeroOculto();
